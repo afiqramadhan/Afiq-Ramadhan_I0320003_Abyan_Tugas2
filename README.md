@@ -1,6 +1,6 @@
 # Afiq-Ramadhan_I0320003_Abyan_Tugas2
 
-##Daftar Isi:
+## Daftar Isi:
 1. Exercise 2.1
 2. Exercise 2.2
 3. Exercise 2.3
