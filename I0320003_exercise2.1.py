@@ -12,7 +12,8 @@ print(20)
 print(3.14)
 
 #tipe data Hexadecimal
-print(9a)
+print("cara mengubah ke kode hex dari 92 adalah " + hex(92))
 
 #tipe data Complex
 print(5j)
+
