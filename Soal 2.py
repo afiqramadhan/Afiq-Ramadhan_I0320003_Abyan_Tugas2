@@ -9,7 +9,8 @@ tahun_lahir = 2001
 tahun_sekarang = 2021
 bulan_lahir = 12
 bulan_sekarang = 3
-umur = (tahun_sekarang - tahun_lahir) * 12 + (bulan_lahir - bulan_sekarang)
+umur = (tahun_sekarang - tahun_lahir)
+umur_bulan = (tahun_sekarang - tahun_lahir) * 12 + (bulan_lahir - bulan_sekarang)
 alamat = "Langenharjo, Sukoharjo"
 gender = "Laki-Laki"
 agama = "Islam"
@@ -21,13 +22,13 @@ berat_idealku = (tinggiku - 100) - (tinggiku / 10)
 
 
 #proses mencetak variabel
-print("Namaku", nama)
-print('Aku berusia', umur)
-print("Umurku sekarang dalam bulan adalah", umur)
-print("Aku tinggal di", alamat)
-print("Aku beragama", agama)
-print("Sekarang aku sedang menempuh pendidikan di", univ, "di jurusan", prodi)
-print("Aku memiliki berat badan ideal yaitu", berat_idealku)
+print("Namaku", str(nama))
+print('Aku berusia', int(umur), "tahun")
+print("Tepatnya aku berumur", int(umur_bulan), "bulan")
+print("Aku tinggal di", str(alamat))
+print("Aku beragama", str(agama))
+print("Sekarang aku sedang menempuh pendidikan di", str(univ), "di jurusan", str(prodi))
+print("Aku memiliki berat badan ideal yaitu", float(berat_idealku))
 
 #menghitung berat badan ideal sesorang
 print("Apa kamu ingin tau berat badan idealmu?")

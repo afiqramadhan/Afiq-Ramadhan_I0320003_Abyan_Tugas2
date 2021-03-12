@@ -4,8 +4,8 @@ import math
 print("Menghitung Luas Persegi Panjang")
 
 #input nilai panjang dan lebar
-panjang = int(input("Masukkan nilai panjang: "))
-lebar = int(input("Masukkan nilai lebar: "))
+panjang = float(input("Masukkan nilai panjang: "))
+lebar = float(input("Masukkan nilai lebar: "))
 
 #menghitung luas persegi panjang
 luas_persegi_panjang = panjang * lebar
